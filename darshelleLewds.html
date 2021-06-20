@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lewd Times</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Lewd Times</h1>
+        <a href="index.html" class="backbutton">Go back</a>
+    </header>
+
+    <section>
+        <article>
+            <div class="topText">
+                <h2>Lewds from Darshelle Stevens</h2>
+            </div>
+            <div class="videoGallery">
+
+            </div>
+            <div class="imageGallery">
+                <div class="subgalleries">
+                    <button class="dropbutton">August 2020 Nudes</button>
+                    <div class="subcontent">
+                        <img src="images/louisaKhovanskiPictures/Louisa 001.jpg" alt="Louisa Khovanski 1" width="110%">
+                        <img src="images/louisaKhovanskiPictures/Louisa 001.jpg" alt="Louisa Khovanski 1" width="110%">
+                        <img src="images/louisaKhovanskiPictures/Louisa 001.jpg" alt="Louisa Khovanski 1" width="110%">
+                        <img src="images/louisaKhovanskiPictures/Louisa 001.jpg" alt="Louisa Khovanski 1" width="110%">
+                    </div>
+                </div>
+                <div class="subgalleries">
+                    <button class="dropbutton">Bath</button>
+                    <div class="subcontent">
+                        <img src="images/louisaKhovanskiPictures/Louisa 001.jpg" alt="Louisa Khovanski 1" width="110%">
+                        <img src="images/louisaKhovanskiPictures/Louisa 001.jpg" alt="Louisa Khovanski 1" width="110%">
+                        <img src="images/louisaKhovanskiPictures/Louisa 001.jpg" alt="Louisa Khovanski 1" width="110%">
+                        <img src="images/louisaKhovanskiPictures/Louisa 001.jpg" alt="Louisa Khovanski 1" width="110%">
+                    </div>
+                </div>
+                <div class="subgalleries">
+                    <button class="dropbutton">Birthday Bodypaint 1</button>
+                    <div class="subcontent">
+                        <img src="images/louisaKhovanskiPictures/Louisa 001.jpg" alt="Louisa Khovanski 1" width="110%">
+                        <img src="images/louisaKhovanskiPictures/Louisa 001.jpg" alt="Louisa Khovanski 1" width="110%">
+                        <img src="images/louisaKhovanskiPictures/Louisa 001.jpg" alt="Louisa Khovanski 1" width="110%">
+                        <img src="images/louisaKhovanskiPictures/Louisa 001.jpg" alt="Louisa Khovanski 1" width="110%">
+                    </div>
+                </div>
+                <div class="subgalleries">
+                    <button class="dropbutton">Birthday Bodypaint 2</button>
+                    <div class="subcontent">
+                        <img src="images/louisaKhovanskiPictures/Louisa 001.jpg" alt="Louisa Khovanski 1" width="110%">
+                        <img src="images/louisaKhovanskiPictures/Louisa 001.jpg" alt="Louisa Khovanski 1" width="110%">
+                        <img src="images/louisaKhovanskiPictures/Louisa 001.jpg" alt="Louisa Khovanski 1" width="110%">
+                        <img src="images/louisaKhovanskiPictures/Louisa 001.jpg" alt="Louisa Khovanski 1" width="110%">
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <footer>
+        <p class="copyright">&copy; 2021 | SkirtSeydlitz's Lewd Times - All Rights Reserved</p>
+    </footer>
+    <script>
+        var coll = document.getElementsByClassName("dropbutton");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

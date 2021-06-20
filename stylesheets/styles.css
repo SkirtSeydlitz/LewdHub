@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("../images/background.jpg") no-repeat fixed;
+}
+
+/* ---> Main Content <--- */
+/* Style the header */
+header {
+    background-color: rgba(102, 102, 102, 0.3);
+    color: white;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    font-size: 35px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+.backbutton {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    margin: auto;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Container for flexboxes */
+section {
+    display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+    display: inline-block;
+}
+
+nav ul li {
+    position: relative;
+    display: inline-block;
+    background-color: #3498DB;
+    color: white;
+    width: 250px;
+    height: 250px;
+    padding: 16px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#myLewds {
+    background: url("../images/myLewdsIcon.png") no-repeat center;
+}
+
+#ukdreamx {
+    background: url("../images/ukdreamxIcon.png") center;
+    background-size: 250px 250px;
+}
+
+#randomGirls {
+    background: url("../images/randomIcon.jpg");
+    background-size: 250px 250px;
+}
+
+#yesikasaenz {
+    background: url("../images/yesikasaenzIcon.jpg");
+    background-size: 250px 250px;
+}
+
+#austinwhite {
+    background: url("../images/austinIcon.jpg");
+    background-size: 250px 250px;
+}
+
+#tessafolwer {
+    background: url("../images/tessafowlerIcon.jpg");
+    background-size: 250px 250px;
+}
+
+#louisakhovanski {
+    background: url("../images/louisaIcon.jpg");
+    background-size: 250px 250px;
+}
+
+#firtsbornunicorn {
+    background: url("../images/unicornIcon.jpg");
+    background-size: 250px 250px;
+}
+
+#darshellestevens {
+    background: url("../images/darshelleIcon.jpg");
+    background-size: 250px 250px;
+}
+
+#melissasucre {
+    background: url("../images/melissaIcon.png");
+    background-size: 250px 250px;
+}
+
+
+nav ul li a {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid black;
+    border-radius: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    text-decoration: none;
+}
+
+.topText {
+    color: white;
+    background-color: rgba(0, 128, 128, 0.3);
+    border: 2px solid black;
+    border-radius: 25px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    max-width: max-content;
+}
+
+/* Style the content */
+article {
+    flex: 3;
+    padding: 10px;
+    text-align: center;
+}
+
+.videoGallery {
+    background-color: rgba(0, 128, 128, 0.3);
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: auto;
+    height: 740px;
+    width: 1320px;
+    padding: 10px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.videos {
+    border: 5px solid #800020;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.imageGallery {
+    background-color: rgba(0, 128, 128, 0.3);
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: auto;
+    width: 1320px;
+    height: 830px;
+    padding-top: 15px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.dropbutton {
+    background-color: rgba(255, 255, 255, 0.5);
+    
+    cursor: pointer;
+    padding: 18px;
+    margin: auto;
+    width: 80%;
+    border: 5px solid #800020;
+    border-radius: 25px;
+    text-align: center;
+    outline: none;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.subgalleries {
+    background-color: rgba(0, 128, 128, 0.3);
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: auto;
+    width: 80%;
+    height: 90%;
+    padding-top: 15px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.subcontent {
+    background-color: rgba(0, 128, 128, 0.3);
+    margin: auto;
+    max-height: 0;
+    max-width: 80%;
+    overflow: hidden;
+    transition: 0.2s ease-out;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 128, 128, 0.3);
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    max-width: max-content;
+}
+
+.secretStash {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    cursor: default;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other*/
+@media (max-width: 600px) {
+    section {
+        flex-direction: column;
+    }
+}
