@@ -4,7 +4,12 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: url("../images/background.jpg") no-repeat fixed;
+    background: url("../images/background.jpg") center no-repeat fixed;
+}
+
+body,
+html {
+    height: 100%;
 }
 
 /* ---> Main Content <--- */
@@ -65,7 +70,7 @@ nav ul li {
 }
 
 #myLewds {
-    background: url("../images/myLewdsIcon.png") no-repeat center;
+    background: url("../images/myLewdsIcon.png") center no-repeat;
 }
 
 #ukdreamx {
@@ -135,6 +140,7 @@ nav ul li a {
     text-align: center;
     padding: 10px;
     margin: auto;
+    margin-bottom: 10px;
     max-width: max-content;
 }
 
@@ -150,8 +156,9 @@ article {
     border: 2px solid black;
     border-radius: 25px;
     margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
     height: 740px;
-    width: 1320px;
     padding: 10px;
     overflow: scroll;
     scrollbar-width: none;
@@ -161,6 +168,8 @@ article {
     border: 5px solid #800020;
     border-radius: 25px;
     margin: auto;
+    width: 250px;
+    height: 250px;
 }
 
 .imageGallery {
@@ -168,7 +177,7 @@ article {
     border: 2px solid black;
     border-radius: 25px;
     margin: auto;
-    width: 1320px;
+    width: 80%;
     height: 830px;
     padding-top: 15px;
     overflow: scroll;
@@ -177,7 +186,6 @@ article {
 
 .dropbutton {
     background-color: rgba(255, 255, 255, 0.5);
-    
     cursor: pointer;
     padding: 18px;
     margin: auto;
