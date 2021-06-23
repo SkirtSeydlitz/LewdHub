@@ -59,64 +59,15 @@ nav ul {
 nav ul li {
     position: relative;
     display: inline-block;
-    background-color: #3498DB;
-    color: white;
     width: 250px;
     height: 250px;
     padding: 16px;
+    margin: 25px;
     font-size: 16px;
     text-align: center;
     cursor: pointer;
 }
 
-#myLewds {
-    background: url("../images/myLewdsIcon.png") center no-repeat;
-}
-
-#ukdreamx {
-    background: url("../images/ukdreamxIcon.png") center;
-    background-size: 250px 250px;
-}
-
-#randomGirls {
-    background: url("../images/randomIcon.jpg");
-    background-size: 250px 250px;
-}
-
-#yesikasaenz {
-    background: url("../images/yesikasaenzIcon.jpg");
-    background-size: 250px 250px;
-}
-
-#austinwhite {
-    background: url("../images/austinIcon.jpg");
-    background-size: 250px 250px;
-}
-
-#tessafolwer {
-    background: url("../images/tessafowlerIcon.jpg");
-    background-size: 250px 250px;
-}
-
-#louisakhovanski {
-    background: url("../images/louisaIcon.jpg");
-    background-size: 250px 250px;
-}
-
-#firtsbornunicorn {
-    background: url("../images/unicornIcon.jpg");
-    background-size: 250px 250px;
-}
-
-#darshellestevens {
-    background: url("../images/darshelleIcon.jpg");
-    background-size: 250px 250px;
-}
-
-#melissasucre {
-    background: url("../images/melissaIcon.png");
-    background-size: 250px 250px;
-}
 
 
 nav ul li a {
@@ -124,14 +75,19 @@ nav ul li a {
     background-color: rgba(255, 255, 255, 0.5);
     border: 2px solid black;
     border-radius: 25px;
-    padding-left: 5px;
-    padding-right: 5px;
     position: absolute;
     bottom: 5px;
     right: 5px;
     text-decoration: none;
 }
 
+.icons {
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: auto;
+    width:250px;
+    height:250px;
+}
 .topText {
     color: white;
     background-color: rgba(0, 128, 128, 0.3);
