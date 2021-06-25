@@ -135,6 +135,7 @@ article {
     width: 80%;
     height: 830px;
     padding-top: 15px;
+    padding-bottom: 15px;
     overflow: scroll;
     scrollbar-width: none;
 }
