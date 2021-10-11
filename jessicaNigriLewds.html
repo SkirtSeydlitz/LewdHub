@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lewd Times</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <script src="java.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Lewd Times</h1>
+        <a href="index.html" class="backbutton">Go back</a>
+    </header>
+
+    <section>
+        <article>
+            <div class="topText">
+                <h2>Lewds from Jessica Nigri</h2>
+                <p>Jessica Nigri is a non-nude cosplayer/model, so don't expect to see any nipples or pussy in here. You
+                    can only wish for them.</p>
+            </div>
+            <div class="imageGallery">
+                <div class="subgalleries">
+                    <button class="dropbutton">Cumshot</button>
+                    <div class="subcontent">
+                        <img src="images/eliseLaurennePictures/Cumshot/Cumshot 1.jpg" alt="Cumshot 1" width="100%">
+                    </div>
+                </div>
+                <div class="subgalleries">
+                    <button class="dropbutton">Feeling Pink</button>
+                    <div class="subcontent">
+                        <img src="images/eliseLaurennePictures/Feeling Pink/Feeling Pink 1.jpg" alt="Feeling Pink 1"
+                            width="100%">
+                    </div>
+                </div>
+                <div class="subgalleries">
+                    <button class="dropbutton">Kitty Cat</button>
+                    <div class="subcontent">
+                        <img src="images/eliseLaurennePictures/Kitty Cat/Kitty Cat 01.jpg" alt="Kitty Cat 1"
+                            width="100%">
+                    </div>
+                </div>
+                <div class="subgalleries">
+                    <button class="dropbutton">Pink Sweater</button>
+                    <div class="subcontent">
+                        <img src="images/eliseLaurennePictures/Pink Sweater/Pink Sweater 01.jpg" alt="Pink Sweater 1"
+                            width="100%">
+                    </div>
+                </div>
+                <div class="subgalleries">
+                    <button class="dropbutton">Pink Wooly</button>
+                    <div class="subcontent">
+                        <img src="images/eliseLaurennePictures/Pink Wooly/Pink Wooly 1.jpg" alt="Pink Wooly 1"
+                            width="100%">
+                    </div>
+                </div>
+                <div class="subgalleries">
+                    <button class="dropbutton">Rose Dress</button>
+                    <div class="subcontent">
+                        <img src="images/eliseLaurennePictures/Rose Dress/Rose Dress 01.jpg" alt="Rose Dress 1"
+                            width="100%">
+                    </div>
+                </div>
+                <div class="subgalleries">
+                    <button class="dropbutton">Sexy Photoshoot</button>
+                    <div class="subcontent">
+                        <img src="images/eliseLaurennePictures/Sexy Photoshoot/Sexy Photoshoot 01.jpg"
+                            alt="Sexy Photoshoot 1" width="100%">
+                    </div>
+                </div>
+                <img src="images/eliseLaurennePictures/Butt 1.jpg" alt="Butt 1" width="75%">
+
+            </div>
+        </article>
+    </section>
+
+    <footer>
+        <p class="copyright">&copy; 2021 | SkirtSeydlitz's Lewd Times - All Rights Reserved</p>
+    </footer>
+    <script>
+        var coll = document.getElementsByClassName("dropbutton");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
